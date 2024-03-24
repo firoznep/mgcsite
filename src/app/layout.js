@@ -14,11 +14,23 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="relative min-h-screen">
-          <NavBar />
-          {children}
+        {/* BODY CONTAINER */}
+        <div className=" ">
+          {/* BODY ITEMS CONTAINER */}
+          <div className="p-4 min-w-full min-h-screen bg-slate-300 flex flex-col justify-start items-center gap-8">
+            {/* NAVBAR CONTAINER */}
+            <div className="w-full min-h-full ">
+              <NavBar />
+            </div>
 
-          <Footer />
+            {/* CHILDREN CONTAINER */}
+            <div className="w-full min-h-full bg-white">{children}</div>
+
+            {/* FOOTER CONTAINER */}
+            <div className="w-full min-h-full bg-white">
+              <Footer />
+            </div>
+          </div>
         </div>
       </body>
     </html>

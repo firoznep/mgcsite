@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
+import BtnPrimary from "./BtnPrimary";
 const Footer = () => {
   return (
     <footer className="   bg-gray-700 text-white font-mono">
