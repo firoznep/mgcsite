@@ -37,7 +37,9 @@ const Footer = () => {
               <FaFacebookF />
             </div>
             <div>
-              <FaInstagram />
+              <Link href={"/social"}>
+                <FaInstagram />
+              </Link>
             </div>
             <div>
               <FaYoutube />

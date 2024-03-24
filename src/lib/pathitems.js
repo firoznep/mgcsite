@@ -3,4 +3,5 @@ export const pathItems = [
   { url: "/about", title: "About" },
   { url: "/project", title: "Projects" },
   { url: "/expertise", title: "Expertise" },
+  { url: "/social", title: "Social Media" },
 ];
