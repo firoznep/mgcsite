@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         {/* BODY CONTAINER */}
         <div className=" ">
           {/* BODY ITEMS CONTAINER */}
-          <div className="p-4 min-w-full min-h-screen bg-slate-300 flex flex-col justify-start items-center gap-8">
+          <div className="min-w-full min-h-screen bg-slate-300 flex flex-col justify-start items-center gap-8">
             {/* NAVBAR CONTAINER */}
             <div className="w-full min-h-full ">
               <NavBar />
