@@ -1,3 +1,4 @@
+import { FaCircleChevronUp } from "react-icons/fa6";
 import Link from "next/link";
 
 import {
@@ -11,6 +12,12 @@ import BtnPrimary from "./BtnPrimary";
 const Footer = () => {
   return (
     <footer className="   bg-gray-700 text-white font-mono">
+      <Link
+        href={"#logo"}
+        className="hidden lg:block sm:fixed right-4 bottom-24 rounded-full bg-yellow-700 opacity-30 hover:opacity-100 hover:animate-bounce"
+      >
+        <FaCircleChevronUp className="w-12 h-12 hover:cursor-pointer" />
+      </Link>
       <div className=" md:flex-row md:justify-around p-4 flex flex-col gap-4 md:items-center justify-center">
         {/* SERVICES*/}
         <div className="flex flex-col">

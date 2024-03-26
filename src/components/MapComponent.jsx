@@ -2,7 +2,7 @@ import { FaLocationDot, FaBusinessTime, FaPhone } from "react-icons/fa6";
 
 const MapComponent = () => {
   return (
-    <div className="md:flex justify-center items-center p-3">
+    <div className="md:flex justify-center items-center p-3 max-w-7xl">
       <div className="md:flex-grow text-blue-700">
         <h2 className="flex gap-2  ">
           <FaLocationDot />

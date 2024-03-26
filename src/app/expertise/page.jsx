@@ -12,15 +12,6 @@ const Expertise = () => {
             turnover.
           </p>
         </div>
-        <div className="md:right-0 md:w-1/2 -z-10 md:fixed">
-          <Image
-            className=" w-full h-80"
-            src={"/service1.jpg"}
-            width={100}
-            height={100}
-            alt="image description"
-          />
-        </div>
       </div>
     </div>
   );

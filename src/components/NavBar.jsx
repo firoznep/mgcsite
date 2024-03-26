@@ -9,28 +9,12 @@ import Hamburger from "@/components/Hamburger";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  // const [scrolled, setScrolled] = useState(false);
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY >= 150) {
-  //       setScrolled(true);
-  //     } else {
-  //       setScrolled(false);
-  //     }
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
 
   return (
     <header
       className={`min-h-12 flex flex-row flex-1 items-center justify-between p-1 px-5 text-[#5c253d] font-bold `}
     >
-      <Link href={"/"} className="w-52 h-14 relative">
+      <Link id="logo" href={"/"} className="w-52 h-14 relative">
         <Image
           src={"/mgc.svg"}
           alt="logo"
